@@ -26,13 +26,7 @@ Technologies used:
 * and i use Mongodb Compass method and Practice in powerShell also
 ### MongoDB Screenshots
 
-**Insert Data**
-
-![MongoDB Insert](screenshots/mongodb_insert.png)
-
-**Query Data**
-
-![MongoDB Query](screenshots/mongodb_query.png)
+https://github.com/Pavibritta/Learn-Sql-and-Mangodb/issues/2
 
 ---
 
