@@ -56,25 +56,24 @@ USE Amazon_crud;
   `created_at` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
-4.CREATE TABLE `products` (
-  `product_id` int(11) NOT NULL,
-  `category_id` int(11) DEFAULT NULL,
-  `product_name` varchar(150) NOT NULL,
-  `price` decimal(10,2) NOT NULL,
-  `stock` int(11) DEFAULT 0,
-  `description` text DEFAULT NULL,
-  `created_at` timestamp NOT NULL DEFAULT current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+4.Insert Data
+INSERT INTO employees (name, age, department)
+VALUES 
+('Ravi', 30, 'IT'),
+('Meena', 28, 'Finance');
 
-5.CREATE TABLE `users` (
-  `user_id` int(11) NOT NULL,
-  `name` varchar(100) NOT NULL,
-  `email` varchar(150) NOT NULL,
-  `phone` varchar(15) DEFAULT NULL,
-  `password` varchar(255) NOT NULL,
-  `created_at` timestamp NOT NULL DEFAULT current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+5.Read Data
 
+SELECT * FROM employees;
+6.Update Data
+
+UPDATE employees
+SET age = 26
+WHERE name = 'Pavithra';
+
+7.Delete Data
+DELETE FROM employees
+WHERE id = 2;
 ## screenShorts
 
 https://github.com/Pavibritta/Learn-Sql-and-Mangodb/issues/4
