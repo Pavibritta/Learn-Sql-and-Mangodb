@@ -43,6 +43,13 @@ Database used: MySQL
 * Insert queries
 * Select queries
 * Filtering data with WHERE clause
+## Basic queries
+
+1. Create Database
+CREATE DATABASE Amazon_crud;
+2. Use Database
+USE Amazon_crud;
+3. Create Table
 
 
 
